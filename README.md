@@ -220,7 +220,7 @@
     const text = `⚠️ SEGNALAZIONE ITIS ⚠️\n\n📌 Categoria: ${post.category}\n❓ Problema: ${post.title}\n💬 Dettagli: ${post.description}\n👤 Inviato da: ${post.author}\n\n#ITIS #SanGregorioMagno #Segnalazioni`;
     
     navigator.clipboard.writeText(text).then(() => {
-      alert('Testo copiato! Ora puoi incollarlo su Instagram o inviarlo tramite app.');
+      alert('Testo copiato!puoi incollarlo su Instagram o inviarlo tramite app.');
     });
   }
 
